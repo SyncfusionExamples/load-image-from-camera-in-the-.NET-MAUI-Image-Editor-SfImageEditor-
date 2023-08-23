@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:imageEditor="clr-namespace:Syncfusion.Maui.ImageEditor;assembly=Syncfusion.Maui.ImageEditor"
+             xmlns:local="clr-namespace:CameraPicker"
+             x:Class="CameraPicker.MainPage">
+    <Grid>
+        <Button x:Name="cameraClicked" Text="Press here to capture an image" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <imageEditor:SfImageEditor x:Name="imageEditor" IsVisible="false"/>
+    </Grid>
+    <ContentPage.Behaviors>
+        <local:CameraPickerBehavior/>
+    </ContentPage.Behaviors>
+</ContentPage>
