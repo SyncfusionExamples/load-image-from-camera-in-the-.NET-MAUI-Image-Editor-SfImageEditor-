@@ -1,7 +1,7 @@
 # Load image from camera in the .NET MAUI Image Editor (SfImageEditor)
 This repository contains a sample of how to load image from camera in the [.NET MAUI Image Editor (SfImageEditor)](https://help.syncfusion.com/maui/imageeditor/getting-started).
 
-# Syncfusion controls
+## Syncfusion controls
 
 This project used the following Syncfusion control(s):
 * [SfImageEditor](https://www.syncfusion.com/maui-controls/maui-image-editor)
